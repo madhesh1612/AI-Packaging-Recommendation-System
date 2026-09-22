@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Leafy Greens (Spinach, Lettuce)",
+    "category": "fresh_produce",
+    "respiration_class": "high",
+    "typical_respiration_mgCO2_kg_hr": [20, 40],
+    "moisture_sensitivity": "high",
+    "oxygen_sensitivity": "medium",
+    "ref_shelf_life_days_at_ref_temp": 5,
+    "ref_temp_c": 4,
+    "map_gas": {"o2_pct": 3, "co2_pct": 5, "n2_pct": 92}
+  },
+  {
+    "name": "Fruits - Climacteric (Banana, Mango)",
+    "category": "fresh_produce",
+    "respiration_class": "medium",
+    "typical_respiration_mgCO2_kg_hr": [10, 25],
+    "moisture_sensitivity": "medium",
+    "oxygen_sensitivity": "medium",
+    "ref_shelf_life_days_at_ref_temp": 10,
+    "ref_temp_c": 13,
+    "map_gas": {"o2_pct": 5, "co2_pct": 5, "n2_pct": 90}
+  },
+  {
+    "name": "Mushrooms",
+    "category": "fresh_produce",
+    "respiration_class": "high",
+    "typical_respiration_mgCO2_kg_hr": [30, 60],
+    "moisture_sensitivity": "high",
+    "oxygen_sensitivity": "low",
+    "ref_shelf_life_days_at_ref_temp": 4,
+    "ref_temp_c": 4,
+    "map_gas": {"o2_pct": 5, "co2_pct": 10, "n2_pct": 85}
+  },
+  {
+    "name": "Dairy (Paneer/Cheese)",
+    "category": "dairy",
+    "respiration_class": "none",
+    "typical_respiration_mgCO2_kg_hr": [0, 0],
+    "moisture_sensitivity": "high",
+    "oxygen_sensitivity": "high",
+    "ref_shelf_life_days_at_ref_temp": 15,
+    "ref_temp_c": 4,
+    "map_gas": {"o2_pct": 0, "co2_pct": 30, "n2_pct": 70}
+  },
+  {
+    "name": "Bakery (Bread, Cake)",
+    "category": "bakery",
+    "respiration_class": "none",
+    "typical_respiration_mgCO2_kg_hr": [0, 0],
+    "moisture_sensitivity": "medium",
+    "oxygen_sensitivity": "medium",
+    "ref_shelf_life_days_at_ref_temp": 5,
+    "ref_temp_c": 25,
+    "map_gas": {"o2_pct": 0, "co2_pct": 60, "n2_pct": 40}
+  },
+  {
+    "name": "Fresh Meat/Poultry",
+    "category": "meat",
+    "respiration_class": "none",
+    "typical_respiration_mgCO2_kg_hr": [0, 0],
+    "moisture_sensitivity": "high",
+    "oxygen_sensitivity": "high",
+    "ref_shelf_life_days_at_ref_temp": 4,
+    "ref_temp_c": 2,
+    "map_gas": {"o2_pct": 70, "co2_pct": 20, "n2_pct": 10}
+  },
+  {
+    "name": "Fried/Oily Snacks (Chips)",
+    "category": "snacks",
+    "respiration_class": "none",
+    "typical_respiration_mgCO2_kg_hr": [0, 0],
+    "moisture_sensitivity": "high",
+    "oxygen_sensitivity": "high",
+    "ref_shelf_life_days_at_ref_temp": 90,
+    "ref_temp_c": 25,
+    "map_gas": {"o2_pct": 2, "co2_pct": 0, "n2_pct": 98}
+  }
+]
