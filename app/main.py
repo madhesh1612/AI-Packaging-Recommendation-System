@@ -25,6 +25,16 @@ if os.path.exists(ASSETS_DIR):
     app.mount("/assets", StaticFiles(directory=ASSETS_DIR), name="assets")
 
 
+@app.get("/")
+def home():
+    return {
+        "message": "AI Packaging Recommendation System API is running!",
+        "status": "success",
+        "docs": "/docs"
+    }
+
+
+
 class FoodAnalysisRequest(BaseModel):
     product_name: str
     api_key: Optional[str] = None
